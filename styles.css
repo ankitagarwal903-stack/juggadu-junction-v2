@@ -5,3 +5,9 @@
 /* Official Juggadu Junction brand logo */
 .brand-logo{width:58px;height:58px;object-fit:contain;flex-shrink:0;border-radius:12px}
 @media(max-width:600px){.brand-logo{width:46px;height:46px}}
+
+/* Keep the detailed brand artwork contained inside the header */
+.top .brand-logo{display:block!important;width:58px!important;height:58px!important;max-width:58px!important;max-height:58px!important;object-fit:contain!important;flex:none!important}
+.top .brand{min-width:0;flex-shrink:0}
+.top .brand>span{display:block}
+@media(max-width:720px){.top .brand-logo{width:44px!important;height:44px!important;max-width:44px!important;max-height:44px!important}}
