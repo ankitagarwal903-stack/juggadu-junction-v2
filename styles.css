@@ -11,3 +11,5 @@
 .top .brand{min-width:0;flex-shrink:0}
 .top .brand>span{display:block}
 @media(max-width:720px){.top .brand-logo{width:44px!important;height:44px!important;max-width:44px!important;max-height:44px!important}}
+
+.jj-admin-title{display:flex;justify-content:space-between;align-items:center;gap:12px}.jj-admin-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:16px 0}.jj-admin-stats>div{background:#eef7f0;padding:14px;border-radius:12px}.jj-admin-stats b{display:block;font-size:25px;color:#0f5c3d}.jj-admin-stats small{font-size:11px;color:#50645a}.jj-admin-card{background:#fff;border:1px solid #dce4df;border-radius:12px;padding:14px;margin:10px 0;overflow-wrap:anywhere}.jj-admin-card p{margin:8px 0}.jj-admin-card select{max-width:100%;padding:8px;border:1px solid #dce4df;border-radius:8px}@media(max-width:550px){.jj-admin-stats{grid-template-columns:1fr 1fr}.jj-admin-title{flex-wrap:wrap}}
